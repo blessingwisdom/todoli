@@ -9,10 +9,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+        home: Scaffold(
       appBar: AppBar(
-        title: const Text("First todo"),
+        title: const Text("To do List"),
       ),
-    );
+    ));
   }
 }
